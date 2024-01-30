@@ -1,0 +1,45 @@
+.resume-item {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  width: 500px;
+}
+
+.resume-item .left {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  width: 124px;
+}
+
+.resume-item .design-component-instance-node-2 {
+  opacity: unset !important;
+}
+
+.resume-item .seprator-line {
+  align-self: stretch;
+  background-color: #a60ac7;
+  border-radius: 10px;
+  box-shadow: var(--purple-glow);
+  position: relative;
+  width: 2px;
+}
+
+.resume-item .right {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}

@@ -1,0 +1,28 @@
+.gallery-item {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.gallery-item .img {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 10px;
+  box-shadow: var(--purple-glow-light);
+  display: flex;
+  flex-direction: column;
+  height: 223.5px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.gallery-item .img-2 {
+  align-self: stretch;
+  flex: 1;
+  flex-grow: 1;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}

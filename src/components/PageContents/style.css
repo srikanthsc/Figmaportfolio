@@ -1,0 +1,185 @@
+.page-contents {
+  height: 784px;
+  position: relative;
+  width: 505px;
+}
+
+.page-contents .slider {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 65px;
+  padding: 0px 41px;
+  position: relative;
+  top: 20px;
+}
+
+.page-contents .about-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 696px;
+  position: relative;
+  width: 485px;
+}
+
+.page-contents .chief {
+  box-shadow: var(--text-shadow);
+  color: var(--accent-purple);
+  font-family: var(--suptitle-font-font-family);
+  font-size: var(--suptitle-font-font-size);
+  font-style: var(--suptitle-font-font-style);
+  font-weight: var(--suptitle-font-font-weight);
+  letter-spacing: var(--suptitle-font-letter-spacing);
+  line-height: var(--suptitle-font-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-shadow: 0px 4px 4px #00000040;
+  width: fit-content;
+}
+
+.page-contents .AI-UI-architect {
+  box-shadow: var(--text-shadow);
+  color: var(--text-white);
+  font-family: var(--pagetitle-font-font-family);
+  font-size: var(--pagetitle-font-font-size);
+  font-style: var(--pagetitle-font-font-style);
+  font-weight: var(--pagetitle-font-font-weight);
+  letter-spacing: var(--pagetitle-font-letter-spacing);
+  line-height: var(--pagetitle-font-line-height);
+  position: relative;
+  text-shadow: 0px 4px 4px #00000040;
+  width: fit-content;
+}
+
+.page-contents .design-development {
+  box-shadow: var(--text-shadow);
+  color: var(--text-gray);
+  font-family: var(--subtile-font-font-family);
+  font-size: var(--subtile-font-font-size);
+  font-style: var(--subtile-font-font-style);
+  font-weight: var(--subtile-font-font-weight);
+  letter-spacing: var(--subtile-font-letter-spacing);
+  line-height: var(--subtile-font-line-height);
+  position: relative;
+  text-shadow: 0px 4px 4px #00000040;
+  width: fit-content;
+}
+
+.page-contents .text-content {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+  padding: 30px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.page-contents .design-development-2 {
+  align-self: stretch;
+  box-shadow: var(--text-shadow);
+  color: #c0c0c0;
+  flex: 1;
+  font-family: var(--paragraph-font-font-family);
+  font-size: var(--paragraph-font-font-size);
+  font-style: var(--paragraph-font-font-style);
+  font-weight: var(--paragraph-font-font-weight);
+  letter-spacing: var(--paragraph-font-letter-spacing);
+  line-height: var(--paragraph-font-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.page-contents .resume-list {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 500px;
+}
+
+.page-contents .resume-item-instance {
+  flex: 0 0 auto !important;
+}
+
+.page-contents .gallery-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 696px;
+  position: relative;
+  width: 485px;
+}
+
+.page-contents .frame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 20px;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+}
+
+.page-contents .gallery-item-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.page-contents .instance-node {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  margin-bottom: -10px !important;
+  width: 100% !important;
+}
+
+.page-contents .certificates-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 696px;
+  position: relative;
+  width: 460px;
+}
+
+.page-contents .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+.page-contents .class {
+  align-self: stretch !important;
+  border-radius: 10px !important;
+  flex: 0 0 auto !important;
+  overflow: hidden !important;
+  width: 100% !important;
+}
+
+.page-contents .certificates {
+  left: -1693px;
+}
+
+.page-contents .resume {
+  left: -613px;
+}
+
+.page-contents .gallery {
+  left: -1153px;
+}
+
+.page-contents .about {
+  left: -23px;
+}

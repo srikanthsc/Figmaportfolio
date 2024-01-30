@@ -1,0 +1,53 @@
+.button {
+  all: unset;
+  align-items: flex-start;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: inline-flex;
+  position: relative;
+}
+
+.button .button-wrapper {
+  all: unset;
+  align-items: center;
+  background-color: var(--button-background);
+  border-radius: 26px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px 32px;
+  position: relative;
+}
+
+.button .text-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  color: var(--buttonprimarytexthover);
+  font-family: "Alata", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.button.click-true {
+  flex-direction: column;
+}
+
+.button.click-true .button-wrapper {
+  box-shadow: var(--button-hover-drop-shadow);
+}
+
+.button.click-false .button-wrapper {
+  box-shadow: var(--button-drop-shadow);
+}
+
+.button:hover .button-wrapper {
+  background-color: var(--button-background-secondary);
+}

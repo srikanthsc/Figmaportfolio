@@ -1,0 +1,38 @@
+.page-instance {
+  background-color: var(--content-background) !important;
+}
+
+.page-2 {
+  align-self: stretch !important;
+  background-color: transparent !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.page-3 {
+  margin-left: -1774px !important;
+  object-fit: unset !important;
+}
+
+.page-4 {
+  margin-left: -1466.5px !important;
+}
+
+.page-5 {
+  margin-left: -2004px !important;
+  object-fit: unset !important;
+}
+
+.page-6 {
+  margin-left: -1224px !important;
+}
+
+.page-7 {
+  margin-left: -1466.5px !important;
+  margin-top: -217px !important;
+}
+
+.page-8 {
+  margin-left: -1224px !important;
+  margin-top: -217px !important;
+}
