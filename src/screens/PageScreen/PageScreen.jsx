@@ -5,7 +5,7 @@ import "./style.css";
 export const PageScreen = () => {
   return (
     <Page
-      backgroundImage="../../img/background-image-1.png"
+      backgroundImage="./img/background-image-1.png"
       contentCardClassName="page-instance"
       headerHeaderClassName="page-2"
       headerLinkPrimaryText="Skills"
