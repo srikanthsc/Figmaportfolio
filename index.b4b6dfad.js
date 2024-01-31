@@ -27176,7 +27176,7 @@ var _page = require("../../components/Page");
 var _styleCss = require("./style.css");
 const PageScreen = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _page.Page), {
-        backgroundImage: "background-image-1.png",
+        backgroundImage: "../../img/background-image-1.png",
         contentCardClassName: "page-instance",
         headerHeaderClassName: "page-2",
         headerLinkPrimaryText: "Skills",
