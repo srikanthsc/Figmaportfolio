@@ -1,1 +1,0 @@
-export { JulPresent } from "./JulPresent";

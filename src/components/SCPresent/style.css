@@ -1,11 +1,11 @@
-.JUL-PRESENT {
+.SC-PRESENT {
   height: 19px;
   opacity: 0;
   position: relative;
   width: 103px;
 }
 
-.JUL-PRESENT .div {
+.SC-PRESENT .div {
   box-shadow: var(--text-shadow);
   color: var(--accent-purple);
   font-family: var(--minititle-font-font-family);

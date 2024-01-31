@@ -1,1 +1,0 @@
-export { LeadDeveloper } from "./LeadDeveloper";

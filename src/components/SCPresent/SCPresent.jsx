@@ -7,14 +7,14 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const JulPresent = ({ className, text = "JUL 2022 - PRESENT" }) => {
+export const SCPresent = ({ className, text = "SC 2022 - PRESENT" }) => {
   return (
-    <div className={`JUL-PRESENT ${className}`}>
+    <div className={`SC-PRESENT ${className}`}>
       <div className="div">{text}</div>
     </div>
   );
 };
 
-JulPresent.propTypes = {
+SCPresent.propTypes = {
   text: PropTypes.string,
 };

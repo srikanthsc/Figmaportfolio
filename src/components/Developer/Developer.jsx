@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const LeadDeveloper = ({ className, text = "Lead Developer" }) => {
+export const Developer = ({ className, text = "Lead Developer" }) => {
   return (
     <div className={`lead-developer ${className}`}>
       <div className="text-wrapper-3">{text}</div>
@@ -15,6 +15,6 @@ export const LeadDeveloper = ({ className, text = "Lead Developer" }) => {
   );
 };
 
-LeadDeveloper.propTypes = {
+Developer.propTypes = {
   text: PropTypes.string,
 };

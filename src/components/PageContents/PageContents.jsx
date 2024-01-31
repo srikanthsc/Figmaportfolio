@@ -50,9 +50,9 @@ export const PageContents = ({
         </div>
         <div className="resume-list">
           <ResumeItem
-            JULPresentText="JUL 2022 - PRESENT"
+            SCPresentText="SC 2022 - PRESENT"
             className="resume-item-instance"
-            leadDeveloperText="Lead Developer"
+            DeveloperText="Lead Developer"
             shopifyExpertWithText={
               <>
                 Shopify Expert with specialization in UI/UX
@@ -77,9 +77,9 @@ export const PageContents = ({
             soundsGoodAgencyText="Sounds Good Agency"
           />
           <ResumeItem
-            JULPresentText="JUN 2018 - PRESENT"
+            SCPresentText="JUN 2018 - PRESENT"
             className="resume-item-instance"
-            leadDeveloperText="UI/UX Expert"
+            DeveloperText="UI/UX Expert"
             shopifyExpertWithText={
               <>
                 Developed and maintained Shopify projects for Toptal, a network of top 3% software engineering, design,
@@ -98,9 +98,9 @@ export const PageContents = ({
             soundsGoodAgencyText="Toptal"
           />
           <ResumeItem
-            JULPresentText="NOV 2020 - FEB 2022"
+            SCPresentText="NOV 2020 - FEB 2022"
             className="resume-item-instance"
-            leadDeveloperText="Senior Front-End Developer &amp; UI/UX Designer"
+            DeveloperText="Senior Front-End Developer &amp; UI/UX Designer"
             shopifyExpertWithText={
               <>
                 Implemented &#34;creative search&#34; feature for admin system, including design and development
