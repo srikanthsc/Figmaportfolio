@@ -7,7 +7,7 @@
   "scripts": {
     "build": "parcel build --public-url ./ --no-scope-hoist",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "parcel",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
